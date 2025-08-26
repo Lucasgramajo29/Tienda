@@ -14,9 +14,38 @@ body {
     color: white;
     font-size: 50px
 }
+.catalogo-nav {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: white;
+    font-size: 20px;
+
+}
 .navbar {
 text-align: center;
 background-color: #1F2D3D;
 padding: 20px;
+}
 
+.catalogo-celulares h2 {
+    margin: 30px;
+}
+.catalogo-celulares{
+    text-align: center;
+    font-size: 23px;
+    margin-top: 30px;
+}
+
+.catalogo-productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 26px;
+}
+
+.producto img {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
 }
